@@ -1,0 +1,50 @@
+.App {
+  width: 90%;
+  margin: auto;
+}
+
+.input {
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input:focus {
+  outline: none;
+}
+.wave {
+  border-radius: 40px 0 40px 0;
+  transition: 0.3s ease;
+}
+.waveA {
+  background-color: lightcyan;
+  border-radius: 40px 0 40px 0;
+  color: blue;
+  border: 2px solid rgb(91, 129, 255);
+  box-shadow: 2px 2px 2px 1px rgba(60, 112, 255, 0.2);
+  transition: 0.3s ease;
+}
+.waveA:focus {
+  border: 3px solid rgb(0, 204, 255);
+  box-shadow: 12px 12px 2px 1px rgba(60, 112, 255, 0.2);
+}
+
+.expand {
+  transition: 0.3s ease;
+}
+.expandD {
+  border: 1px solid blue;
+}
+.expandD:focus {
+  color: rgb(0, 0, 0);
+  background-color: rgb(209, 243, 255);
+  box-shadow: 0 0 3px 20px rgb(209, 243, 255);
+  border: 5px solid blue;
+}
+
+.textarea {
+  width: 90%;
+  margin-bottom: 0;
+}
